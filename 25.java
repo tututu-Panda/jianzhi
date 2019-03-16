@@ -39,6 +39,7 @@ public class Solution {
         RandomListNode tep;
         temp = pHead;
         // 将原链表还原
+        // 因为现在链表为A->A1->B->B1->C->C1
         while(temp.next != null){
             tep = temp.next;
             temp.next = tep.next;
